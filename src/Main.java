@@ -1,5 +1,4 @@
-public class Main
-{
+public class Main {
     public static void main(String[] args) {
         for (int a = 0; a <= 30; a++) {
             System.out.printf("%3d  |", a);
@@ -51,6 +50,21 @@ public class Main
         }
         System.out.println();
 
-
+        for (int a = 4; a > 0; a--)
+        {
+            for (int b = 1; b <= 4; b++)
+            {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+        for (int a = 0; a < 5; a++)
+        {
+            for (int b = 0; b <= a; b++)
+            {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
     }
 }
